@@ -1,0 +1,20 @@
+{
+    "name": "Korbski Labs Supporter",
+    "symbol": "KLSUP",
+    "description": "Official Korbski Labs Supporter Card – Series 1. A $1 collectible showing love to the brand.",
+    "image": "https://example.com/supporter-card.png",
+    "attributes": [
+      { "trait_type": "Series", "value": "1" },
+      { "trait_type": "Type", "value": "Supporter" }
+    ],
+    "seller_fee_basis_points": 500,
+    "properties": {
+      "creators": [
+        {
+          "address": "REPLACE_ME_CREATOR_ADDRESS",
+          "share": 100
+        }
+      ]
+    }
+  }
+  
