@@ -1,7 +1,6 @@
 import { getUmi } from "../config/solana";
 import {
   createNft,
-  TokenStandard,
 } from "@metaplex-foundation/mpl-token-metadata";
 import { generateSigner, percentAmount } from "@metaplex-foundation/umi";
 import * as fs from "fs";
@@ -39,7 +38,6 @@ async function main() {
     symbol: "KLSUP",
     uri,
     sellerFeeBasisPoints: percentAmount(5, 2), // 5%
-    tokenStandard: TokenStandard.NonFungible,
     isMutable: true,
   });
 
