@@ -2,7 +2,7 @@ import { getUmi } from "../config/solana";
 import {
   createNft,
 } from "@metaplex-foundation/mpl-token-metadata";
-import { generateSigner, percentAmount } from "@metaplex-foundation/umi";
+import { generateSigner, percentAmount, publicKey } from "@metaplex-foundation/umi";
 import * as fs from "fs";
 import * as path from "path";
 import "dotenv/config";
@@ -41,6 +41,7 @@ async function main() {
     uri,
     sellerFeeBasisPoints: percentAmount(5, 2), // 5%
     isMutable: true,
+    tokenOwner: publicKey("89rc1uoJ6KjsmEy2qKzgWVhpYQHJniDudm948iJxpxCr"),
   });
 
   await builder.sendAndConfirm(umi);
