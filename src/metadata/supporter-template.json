@@ -2,7 +2,7 @@
     "name": "Korbski Labs Supporter",
     "symbol": "KLSUP",
     "description": "Official Korbski Labs Supporter Card – Series 1. A $1 collectible showing love to the brand.",
-    "image": "https://raw.githubusercontent.com/iancorbett/korbski-supporter-nft/main/assets/korbskilabsNFT.png",
+    "image": "https://raw.githubusercontent.com/iancorbett/korbski-supporter-nft/main/src/assets/korbskilabsNFT.png",
     "attributes": [
       { "trait_type": "Series", "value": "1" },
       { "trait_type": "Type", "value": "Supporter" }
