@@ -6,7 +6,7 @@
     "attributes": [
       { "trait_type": "Series", "value": "1" },
       { "trait_type": "Type", "value": "Supporter" }
-    ],
+      ],
     "seller_fee_basis_points": 500,
     "properties": {
       "creators": [

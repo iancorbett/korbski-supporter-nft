@@ -28,6 +28,8 @@ async function main() {
     process.env.SUPPORTER_METADATA_URI ||
     "https://your-hosted-url/supporter-template.json";
 
+    console.log("Using metadata URI:", uri);
+
   const mint = generateSigner(umi);
 
   const name = `Korbski Labs Supporter #${supporterNumber}`;
